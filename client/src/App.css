@@ -1,0 +1,116 @@
+.main {
+  text-align: center;
+  justify-content: center;
+}
+
+.login {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.login h2 {
+  color: purple;
+}
+
+.login input, .login button {
+  width: 80%;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.login button {
+  cursor: pointer;
+}
+
+.chat {
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  position: relative;
+}
+
+.leave {
+  position: absolute;
+  top: 10;
+  right: 0;
+  background-color: red;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chat-head {
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-body {
+  display: flex;
+}
+
+.userlist {
+  border: 2px solid black;
+  width: 40%;
+  text-align: center;
+  overflow-y: auto;
+  background-color: green;
+}
+
+.messages {
+  width: 60%;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.allmessages {
+  border: 2px solid black;
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.load_message {
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#you {
+  background-color: green;
+}
+
+#other {
+  background-color: gray;
+}
+
+.chat-foot {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.send {
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 1rem;
+  cursor: pointer;
+  background-color: green;
+  z-index: 3;
+}
